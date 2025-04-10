@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background: rgb(187, 187, 246);
+}
+
+.wrapper {
+    width: 500px;
+    background: aliceblue;
+    border-radius: 0.8em;
+    padding: 20px 20px;
+}
+
+header h1{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 10px 10px;
+    justify-self: center;
+}
+
+header p {
+    margin: 10px 10px;
+    justify-self: center;
+}
+
+form {
+    justify-self: center;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+input {
+    margin: 10px 10px;
+    width: 350px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0.5em;
+}
+
+button {
+    margin: 10px 10px;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgb(187, 187, 246);
+}
+
+button:hover {
+    cursor: pointer;
+}
